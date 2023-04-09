@@ -1,1 +1,1 @@
-# SI_2023_lab1_193139
+Andrej Ivanov 193139
