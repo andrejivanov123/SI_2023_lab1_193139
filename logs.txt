@@ -1,0 +1,38 @@
+C:\Users\ivano>d:
+
+D:\>cd\SI_2023_lab1_193139
+
+D:\SI_2023_lab1_193139>git init
+Reinitialized existing Git repository in D:/SI_2023_lab1_193139/.git/
+
+D:\SI_2023_lab1_193139>git remote -v
+SI1_2023_lab1_193139    https://github.com/andrejivanov123/SI_2023_lab1_193139 (fetch)
+SI1_2023_lab1_193139    https://github.com/andrejivanov123/SI_2023_lab1_193139 (push)
+SI_2023_lab1_193139     https://github.com/andrejivanov123/-SI_2023_lab1_193139 (fetch)
+SI_2023_lab1_193139     https://github.com/andrejivanov123/-SI_2023_lab1_193139 (push)
+origin  https://github.com/andrejivanov123/-SI_2023_lab1_193139 (fetch)
+origin  https://github.com/andrejivanov123/-SI_2023_lab1_193139 (push)
+
+D:\SI_2023_lab1_193139>git remote add SI_2023_lab1_193139 https://github.com/andrejivanov123/SI_2023_lab1_193139
+error: remote SI_2023_lab1_193139 already exists.
+
+D:\SI_2023_lab1_193139>git remote -v
+SI1_2023_lab1_193139    https://github.com/andrejivanov123/SI_2023_lab1_193139 (fetch)
+SI1_2023_lab1_193139    https://github.com/andrejivanov123/SI_2023_lab1_193139 (push)
+SI_2023_lab1_193139     https://github.com/andrejivanov123/-SI_2023_lab1_193139 (fetch)
+SI_2023_lab1_193139     https://github.com/andrejivanov123/-SI_2023_lab1_193139 (push)
+origin  https://github.com/andrejivanov123/-SI_2023_lab1_193139 (fetch)
+origin  https://github.com/andrejivanov123/-SI_2023_lab1_193139 (push)
+
+D:\SI_2023_lab1_193139>git fetch SI_2023_lab1_193139
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 22 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (22/22), 6.31 KiB | 115.00 KiB/s, done.
+From https://github.com/andrejivanov123/-SI_2023_lab1_193139
+ * [new branch]      master     -> SI_2023_lab1_193139/master
+
+D:\SI_2023_lab1_193139>git push SI_2023_lab1_193139 master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/andrejivanov123/-SI_2023_lab1_193139'
